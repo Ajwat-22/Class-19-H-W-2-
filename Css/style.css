@@ -1,0 +1,46 @@
+/* Common Css Start */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+img
+{
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+    margin-right: 700px;
+    margin-top: 50px;
+}
+body
+{
+    background-color: #1d1d1d;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn
+{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding: 16px 45px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(35, 132, 136, 0.7);
+    transition: .4s;
+}
+#btn:hover
+{
+    background-color: rgb(30, 75, 112);
+    color: aliceblue;
+}
+/* Common Css End */
